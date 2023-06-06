@@ -8,7 +8,7 @@ class KataForFunService {
         var result = ""
         if (inputNumber == 1)
             result+="1"
-       
+
         return result.ifEmpty { inputNumber.toString() }
 
 
