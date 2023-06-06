@@ -18,11 +18,6 @@ class KataForFunApplicationTests( ) {
     }
 
     @Test
-    fun shouldReturnKataIf1() {
-        assertEquals("1",kataForFunService.convertNumber(1))
-    }
-
-    @Test
     fun shouldReturnKataKataIf3() {
         assertEquals("KataKata",kataForFunService.convertNumber(3))
     }
@@ -34,5 +29,31 @@ class KataForFunApplicationTests( ) {
     fun shouldReturnFunIf7() {
         assertEquals("Fun",kataForFunService.convertNumber(7))
     }
+    @Test
+    fun shouldReturnKataIf9() {
+        assertEquals("Kata",kataForFunService.convertNumber(9))
+
+    }
+    @Test
+    fun shouldReturnKataForIf51() {
+        assertEquals("KataFor",kataForFunService.convertNumber(51))
+    }
+    @Test
+    fun shouldReturnForKataIf53() {
+        assertEquals("ForKata",kataForFunService.convertNumber(53))
+    }
+    @Test
+    fun shouldReturnKataKataIf33() {
+        assertEquals("KataKataKata",kataForFunService.convertNumber(33))
+    }
+    @Test
+    fun shouldReturnKataFunIf27() {
+        assertEquals("KataFun",kataForFunService.convertNumber(27))
+    }
+    @Test
+    fun shouldReturnKataForForIf15() {
+        assertEquals("KataForFor",kataForFunService.convertNumber(15))
+    }
+
 
 }
