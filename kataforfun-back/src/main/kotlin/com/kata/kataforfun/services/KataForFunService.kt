@@ -22,6 +22,10 @@ class KataForFunService {
                 result+="Kata"
         }
 
+        for (i in inputNumber.toString()) {
+            if (i==('7'))
+                result+="Fun"        }
+
 
         return result.ifEmpty { inputNumber.toString() }
 
