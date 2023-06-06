@@ -30,5 +30,9 @@ class KataForFunApplicationTests( ) {
     fun shouldReturnForForIf5() {
         assertEquals("ForFor",kataForFunService.convertNumber(5))
     }
+    @Test
+    fun shouldReturnFunIf7() {
+        assertEquals("Fun",kataForFunService.convertNumber(7))
+    }
 
 }
